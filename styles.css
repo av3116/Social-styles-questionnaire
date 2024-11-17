@@ -1,0 +1,126 @@
+  /* Global Styles */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+    color: #fff; /* Set text color to white for contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  /* Start Button Styling */
+  #startButton {
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    background-color: #b6ff00; /* Acid yellow color */
+    color: black; /* Text color black for better contrast */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #startButton:hover {
+    background-color: #9fd600;
+  }
+
+  /* Form Styling */
+  form {
+    background-color:  #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    display: none;  /* Hide form initially */
+  }
+
+  .question {
+    display: none;  /* Hide all questions by default */
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #555;
+    font-size: 1rem;
+  color: white; /* White text */
+    box-sizing: border-box;
+  }
+
+  select:focus {
+    outline: none;
+    border-color:  #b6ff00
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #b6ff00; /* Acid yellow color */
+    color: black; /* Text color black for better contrast */
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #9fd600;
+  }
+
+  /* Result Section (Hidden by Default) */
+  #result {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000000;
+    color: #555; /* Set text color to white for contrast */
+    border-radius: 4px;
+    width: 100%;
+    max-width: 600px;
+    display: none;  /* Hide result initially */
+  }
+
+  img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    form {
+      padding: 20px;
+    }
+    
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    select, button {
+      font-size: 1rem;
+    }
+  }
