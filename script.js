@@ -37,46 +37,46 @@ function showResult() {
 
   const questionsMapping = [
     { questionId: "qc1", options: [
-      { value: "1", categoryScores: { YellowSunshine: 0.499 } },
-      { value: "2", categoryScores: { FieryRed: 0.499 } },
-      { value: "3", categoryScores: { CoolBlue: 0.499 } },
-      { value: "4", categoryScores: { EarthyGreen: 0.499 } }
+      { value: "1", categoryScores: { YellowSunshine: 1.499 } },
+      { value: "2", categoryScores: { FieryRed: 1.499 } },
+      { value: "3", categoryScores: { CoolBlue: 1.499 } },
+      { value: "4", categoryScores: { EarthyGreen: 1.499 } }
     ]},
     { questionId: "qc2", options: [
-        { value: "3", categoryScores: { YellowSunshine: 0.599 } },
-        { value: "1", categoryScores: { FieryRed: 0.599 } },
-        { value: "2", categoryScores: { CoolBlue: 0.599 } },
-        { value: "4", categoryScores: { EarthyGreen: 0.599 } }
+        { value: "3", categoryScores: { YellowSunshine: 1.599 } },
+        { value: "1", categoryScores: { FieryRed: 1.599 } },
+        { value: "2", categoryScores: { CoolBlue: 1.599 } },
+        { value: "4", categoryScores: { EarthyGreen: 1.599 } }
       ]},
     { questionId: "qc3", options: [
-        { value: "3", categoryScores: { YellowSunshine: 0.49 } },
-        { value: "4", categoryScores: { FieryRed: 0.49 } },
-        { value: "1", categoryScores: { CoolBlue: 0.49 } },
-        { value: "2", categoryScores: { EarthyGreen: 0.49 } }
+        { value: "3", categoryScores: { YellowSunshine: 1.49 } },
+        { value: "4", categoryScores: { FieryRed: 1.49 } },
+        { value: "1", categoryScores: { CoolBlue: 1.49 } },
+        { value: "2", categoryScores: { EarthyGreen: 1.49 } }
       ]},
     { questionId: "qc4", options: [
-        { value: "1", categoryScores: { YellowSunshine: 0.51 } },
-        { value: "4", categoryScores: { FieryRed: 0.51 } },
-        { value: "2", categoryScores: { CoolBlue: 0.51 } },
-        { value: "3", categoryScores: { EarthyGreen: 0.51 } }
+        { value: "1", categoryScores: { YellowSunshine: 1.51 } },
+        { value: "4", categoryScores: { FieryRed: 1.51 } },
+        { value: "2", categoryScores: { CoolBlue: 1.51 } },
+        { value: "3", categoryScores: { EarthyGreen: 1.51 } }
       ]},
       { questionId: "qc5", options: [
-        { value: "2", categoryScores: { YellowSunshine: 0.59 } },
-        { value: "4", categoryScores: { FieryRed: 0.59 } },
-        { value: "1", categoryScores: { CoolBlue: 0.59 } },
-        { value: "3", categoryScores: { EarthyGreen: 0.59 } }
+        { value: "2", categoryScores: { YellowSunshine: 1.59 } },
+        { value: "4", categoryScores: { FieryRed: 1.59 } },
+        { value: "1", categoryScores: { CoolBlue: 1.59 } },
+        { value: "3", categoryScores: { EarthyGreen: 1.59 } }
       ]},
       { questionId: "qc6", options: [
-        { value: "4", categoryScores: { YellowSunshine: 0.59 } },
-        { value: "3", categoryScores: { FieryRed: 0.59 } },
-        { value: "2", categoryScores: { CoolBlue: 0.59 } },
-        { value: "1", categoryScores: { EarthyGreen: 0.59 } }
+        { value: "4", categoryScores: { YellowSunshine: 1.59 } },
+        { value: "3", categoryScores: { FieryRed: 1.59 } },
+        { value: "2", categoryScores: { CoolBlue: 1.59 } },
+        { value: "1", categoryScores: { EarthyGreen: 1.59 } }
       ]},
       { questionId: "qc7", options: [
-        { value: "3", categoryScores: { YellowSunshine: 0.59 } },
-        { value: "1", categoryScores: { FieryRed: 0.59 } },
-        { value: "4", categoryScores: { CoolBlue: 0.59 } },
-        { value: "2", categoryScores: { EarthyGreen: 0.59 } }
+        { value: "3", categoryScores: { YellowSunshine: 1.59 } },
+        { value: "1", categoryScores: { FieryRed: 1.59 } },
+        { value: "4", categoryScores: { CoolBlue: 1.59 } },
+        { value: "2", categoryScores: { EarthyGreen: 1.59 } }
       ]},
     { questionId: "qa1", options: [
         { value: "1", categoryScores: { YellowSunshine: 1, FieryRed: 1 } },
