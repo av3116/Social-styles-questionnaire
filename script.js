@@ -66,6 +66,18 @@ function showResult() {
         { value: "1", categoryScores: { CoolBlue: 0.59 } },
         { value: "3", categoryScores: { EarthyGreen: 0.59 } }
       ]},
+      { questionId: "qc6", options: [
+        { value: "4", categoryScores: { YellowSunshine: 0.59 } },
+        { value: "3", categoryScores: { FieryRed: 0.59 } },
+        { value: "2", categoryScores: { CoolBlue: 0.59 } },
+        { value: "1", categoryScores: { EarthyGreen: 0.59 } }
+      ]},
+      { questionId: "qc7", options: [
+        { value: "3", categoryScores: { YellowSunshine: 0.59 } },
+        { value: "1", categoryScores: { FieryRed: 0.59 } },
+        { value: "4", categoryScores: { CoolBlue: 0.59 } },
+        { value: "2", categoryScores: { EarthyGreen: 0.59 } }
+      ]},
     { questionId: "qa1", options: [
         { value: "1", categoryScores: { YellowSunshine: 1, FieryRed: 1 } },
         { value: "2", categoryScores: { CoolBlue: 1, EarthyGreen: 1 } }
